@@ -59,7 +59,7 @@ import Data.Aeson.Types (Parser, parseEither, parseMaybe)
 import Data.Bifunctor (first)
 import qualified Data.ByteString.Lazy as LBS
 import Data.Conduit
-import Data.List (find)
+import Data.List (find, foldl')
 import qualified Data.List.NonEmpty as NonEmpty
 import qualified Data.Map.Strict as Map
 import Data.Maybe (fromMaybe)
